@@ -10,6 +10,7 @@ const FormInput = ({ name, type, title, value, handleChange }) => {
         name={name}
         value={value}
         onChange={handleChange}
+        required
       />
     </div>
   );
