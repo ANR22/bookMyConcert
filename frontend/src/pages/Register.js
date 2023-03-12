@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import FormInput from "../components/FormInput";
-
+import Logo from "../components/Logo";
 const userDetails = {
   name: "",
   email: "",
@@ -36,7 +36,8 @@ const Register = () => {
   return (
     <div className="login-div">
       <div className="div-form">
-        <h1 className="title">BookMyConcert</h1>
+        {/* <h1 className="title">BookMyConcert</h1> */}
+        <Logo />
         <div className="form-title">
           {userData.isMember ? "Login to your account" : "Create your account"}
         </div>
